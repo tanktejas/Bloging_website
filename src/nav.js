@@ -5,7 +5,7 @@ import mui from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import CloseIcon from '@material-ui/icons/Close';
 //css  
-import './nav.scss';       
+import './nav.css';       
 //image
 import logo from './logo1.png';  
 function Nav(){ 
