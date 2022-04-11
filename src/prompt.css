@@ -1,0 +1,54 @@
+h1 {
+    margin: 0;
+    padding: 0;
+  }
+ .app{
+   
+   opacity: 1 !important;
+ }
+  .popup {
+    /* overflow: hidden; */
+   opacity: 1 !important;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.288);
+  } 
+  .popup_inner {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+    margin: auto;
+    background: white;
+  }
+  .popup_inner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.popup_inner h2,
+.popup_inner button,
+.popup_inner input{
+    margin-top: 23px;
+}
+.popup_inner h2{
+  color: rgb(54, 196, 231);
+  position: absolute;
+  top: 0%;
+} 
+.popup_inner input{
+  font-size: 18px;
+  height: 43px;
+  width: 90%;
+  border-radius: 9px;
+  background-color: rgb(235, 235, 235);
+  box-shadow: 2px 2px black;
+
+}

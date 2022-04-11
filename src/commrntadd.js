@@ -13,14 +13,14 @@ function Addcomment(){
     function  funforchangename(e) {
         setComm({
              name:e.target.value,
-             comment:comment.comment
+             comment:comment.comment 
         })
     
     }
     function changecomment(e){
       setComm({
         name:comment.name,
-        comment:e.target.value
+        comment:e.target.value 
    })
   }
   function under(){
@@ -53,7 +53,7 @@ function Addcomment(){
       body:JSON.stringify(comment),                                
       headers: { 
           'Content-Type': 'application/json'  
-      },                      
+      },                       
      })             
   }     
      return(

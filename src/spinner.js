@@ -6,7 +6,7 @@ function Spinnner(){
     return (
 <>
       <section className='spinner'>
-       <div className='load'>
+       <div className='load'>  
       <span style={{"--i":"1;"}}></span>
         
          <span style={{"--i":"1"}}></span>

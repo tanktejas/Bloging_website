@@ -34,7 +34,7 @@ function Footer(){
                         <p>If you find something useful then subscribe our chanel.</p>
                     </div>
             </div>
-                    <div class="col item social iconworld"> <div className='insta'> <a><InstagramIcon/> </a>  </div><div className='twitter'>  <a> <TwitterIcon/> </a>  </div> <div className='linked'> <a>  <LinkedInIcon/> </a>  </div> <div className='face'> <a>  <FacebookIcon/> </a>  </div></div>
+                    <div class="col item social iconworld"> <div className='insta'> <a href='https://www.instagram.com/tejas__tank_235/'><InstagramIcon/> </a>  </div><div className='twitter'>  <a href='https://twitter.com/TejasTa65040578' > <TwitterIcon/> </a>  </div> <div className='linked'> <a href='https://www.linkedin.com/in/tejas-tank-122648204/'>  <LinkedInIcon/> </a>  </div> <div className='face'> <a href='https://www.facebook.com/tejas.tank.94064'>  <FacebookIcon/> </a>  </div></div>
                 </div>
                 <p class="copyright">Tech Blog © 2022</p>
         </footer>
